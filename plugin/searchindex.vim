@@ -58,10 +58,10 @@ nnoremap <silent> <Plug>SearchIndex :call <SID>PrintMatches()<CR>
 nmap <silent> n n<Plug>SearchIndex
 nmap <silent> N N<Plug>SearchIndex
 
-map  *  <Plug>ImprovedStar_*<Plug>SearchIndex
-map  #  <Plug>ImprovedStar_#<Plug>SearchIndex
-map  g* <Plug>ImprovedStar_g*<Plug>SearchIndex
-map  g# <Plug>ImprovedStar_g#<Plug>SearchIndex
+" map  *  <Plug>ImprovedStar_*<Plug>SearchIndex
+" map  #  <Plug>ImprovedStar_#<Plug>SearchIndex
+map  * <Plug>ImprovedStar_g*<Plug>SearchIndex
+map  # <Plug>ImprovedStar_g#<Plug>SearchIndex
 
 noremap <silent> <expr> <Plug>ImprovedStar_*  <SID>StarSearch('*')
 noremap <silent> <expr> <Plug>ImprovedStar_#  <SID>StarSearch('#')
