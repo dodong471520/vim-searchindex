@@ -56,10 +56,10 @@ nnoremap <silent> <Plug>SearchIndex :call <SID>PrintMatches()<CR>
 silent! nmap <silent><unique> n n<Plug>SearchIndex
 silent! nmap <silent><unique> N N<Plug>SearchIndex
 
-" silent! map <unique> *  <Plug>ImprovedStar_*<Plug>SearchIndex
-" silent! map <unique> #  <Plug>ImprovedStar_#<Plug>SearchIndex
-silent! map <unique> * <Plug>ImprovedStar_g*<Plug>SearchIndex
-silent! map <unique> # <Plug>ImprovedStar_g#<Plug>SearchIndex
+silent! map <unique> *  <Plug>ImprovedStar_*<Plug>SearchIndex
+silent! map <unique> #  <Plug>ImprovedStar_#<Plug>SearchIndex
+silent! map <unique> g* <Plug>ImprovedStar_g*<Plug>SearchIndex
+silent! map <unique> g# <Plug>ImprovedStar_g#<Plug>SearchIndex
 
 noremap <silent><expr> <Plug>ImprovedStar_*  <SID>StarSearch('*')
 noremap <silent><expr> <Plug>ImprovedStar_#  <SID>StarSearch('#')
